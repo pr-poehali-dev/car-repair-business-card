@@ -4,11 +4,11 @@ import {
   Car, 
   Settings, 
   Battery, 
-  Oil, 
   Gauge,
   Phone,
   MapPin,
-  Clock
+  Clock,
+  Droplets
 } from "lucide-react";
 import ServiceCard from "@/components/ServiceCard";
 import ContactButton from "@/components/ContactButton";
@@ -76,7 +76,7 @@ const Index = () => {
                 description="Диагностика и ремонт электрооборудования вашего автомобиля"
               />
               <ServiceCard 
-                icon={Oil}
+                icon={Droplets}
                 title="Замена масла и фильтров" 
                 description="Регулярное техническое обслуживание для продления срока службы автомобиля"
               />
